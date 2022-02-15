@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBox x:Name="txtvypis" HorizontalAlignment="Left" Height="210" Margin="-1,1,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="223" RenderTransformOrigin="0.5,0.5">
+        <TextBox x:Name="txtvypis" HorizontalAlignment="Left" Height="210" Margin="-1,1,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="223" RenderTransformOrigin="0.5,0.5">
             <TextBox.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -24,6 +24,17 @@
                     <SkewTransform AngleX="36.222"/>
                     <RotateTransform Angle="212.833"/>
                     <TranslateTransform X="-50.907"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Content="Button" HorizontalAlignment="Left" Height="88" Margin="235,264,0,0" VerticalAlignment="Top" Width="178" Click="Button_Click_1"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="142" Margin="50,240,0,0" VerticalAlignment="Top" Width="92" RenderTransformOrigin="0.5,0.5" Click="Button_Click_2">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-405.627"/>
+                    <TranslateTransform/>
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
