@@ -20,8 +20,6 @@ namespace Pole
     /// </summary>
     public partial class MainWindow : Window
     {
-        int a; //int a;
-        int b; //int b;
         int[] pole = new int[100];
         List<int> seznam = new List<int>();
         public MainWindow()
@@ -61,7 +59,7 @@ namespace Pole
             {
                 seznam.RemoveAt(0);
             }
-            txtvypis.Text = string.Join(";", pole);
+            txtvypis.Text = string.Join(";", seznam);
         }
     }
 }
